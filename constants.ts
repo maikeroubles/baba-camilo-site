@@ -1,6 +1,6 @@
 import { MessageCircle, Heart, Coins, ShieldCheck, Sparkles, Lock, Clock, MapPin, BookOpen } from 'lucide-react';
 
-export const WHATSAPP_NUMBER = "5512976026316"; 
+export const WHATSAPP_NUMBER = "5512976026316";
 export const WHATSAPP_MESSAGE = "Olá Babá Camilo, li seus artigos e gostaria de uma orientação espiritual.";
 
 export const FORM_OPTIONS = [
@@ -173,7 +173,7 @@ export const COPY = {
         id: 1,
         title: "Amarração Amorosa x Harmonização: O perigo que ninguém te conta",
         excerpt: "Existe uma diferença brutal entre prender alguém contra a vontade e curar espiritualmente uma relação. Entenda por que resultados de '24 horas' são uma armadilha perigosa.",
-        image: "https://picsum.photos/800/600?random=1",
+        image: "/assets/images/blog-amarracao.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">Quando o coração aperta e a pessoa amada vai embora, o desespero se torna um conselheiro terrível. É nesse momento de fragilidade que muitas pessoas caem em promessas de "trago seu amor em 24 horas" ou "amarração definitiva e infalível".</p>
           
@@ -208,7 +208,7 @@ export const COPY = {
         id: 2,
         title: "Dinheiro que entra e sai? 7 Sinais de Bloqueio Financeiro",
         excerpt: "Você trabalha honestamente, mas as dívidas só aumentam? O problema pode não ser a economia do país, mas uma 'bactéria espiritual' chamada Inveja e Demanda.",
-        image: "https://picsum.photos/800/600?random=2",
+        image: "/assets/images/blog-financeiro.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">Imagine um cano de água limpa e cristalina. Se você jogar terra, lixo e pedras nesse cano, a água para de fluir ou sai suja. Com a sua vida financeira, a lógica espiritual é a mesma.</p>
           
@@ -258,7 +258,7 @@ export const COPY = {
         id: 3,
         title: "Guia Definitivo de Banhos: Ervas, Sal Grosso e Cuidados com o Ori",
         excerpt: "Tomar banho de sal grosso pode estar piorando sua situação. Aprenda a ciência das ervas e como preparar banhos que realmente funcionam e não prejudicam sua aura.",
-        image: "https://picsum.photos/800/600?random=3",
+        image: "/assets/images/blog-banhos.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">A natureza é a farmácia dos Orixás. As folhas (Ewé) contêm o sangue verde da terra, o Axé puro capaz de curar, limpar e atrair. Porém, vejo muita gente cometendo erros graves com banhos "populares" da internet.</p>
           
@@ -291,7 +291,7 @@ export const COPY = {
         id: 4,
         title: "Adoçamento Amoroso: O Segredo para Amansar Corações",
         excerpt: "Seu parceiro está frio, distante ou orgulhoso? Descubra como o Adoçamento atua para baixar as defesas e reacender a doçura sem gerar karma negativo.",
-        image: "https://picsum.photos/800/600?random=4",
+        image: "/assets/images/blog-adocamento.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">Muitas vezes, o amor não acabou. O que aconteceu foi que o <strong>orgulho</strong> construiu um muro entre o casal. Pequenas brigas, mal-entendidos e a rotina endurecem o coração. A pessoa amada se fecha, fica fria, distante e, às vezes, até grosseira.</p>
           
@@ -325,7 +325,7 @@ export const COPY = {
         id: 5,
         title: "Sonhos Recorrentes: O que os Orixás querem te dizer?",
         excerpt: "Sonhar com dentes caindo, cobras ou água suja não é coincidência. Aprenda a interpretar os avisos que seu espírito recebe enquanto você dorme.",
-        image: "https://picsum.photos/800/600?random=5",
+        image: "/assets/images/blog-sonhos.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">O sono é o momento em que nosso espírito se desprende da matéria e visita outras faixas vibratórias (o Orun). Nada em um sonho recorrente é por acaso. São avisos dos seus Guias ou reflexos de ataques espirituais que você está sofrendo.</p>
           
@@ -360,7 +360,7 @@ export const COPY = {
         id: 6,
         title: "Inveja no Trabalho: Como blindar sua mesa e seus negócios",
         excerpt: "O ambiente corporativo é um campo de guerra astral. Saiba como identificar vampiros energéticos, o 'olho gordo' e proteger sua prosperidade profissional.",
-        image: "https://picsum.photos/800/600?random=6",
+        image: "/assets/images/blog-inveja.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">Você já sentiu um sono incontrolável ao sentar na sua cadeira de trabalho? Ou o computador trava e o sistema cai sempre que você vai fechar um grande contrato? Isso não é coincidência.</p>
           
@@ -389,7 +389,7 @@ export const COPY = {
         id: 7,
         title: "Eguns e Obsessores: Quando a tristeza não é sua",
         excerpt: "Depressão repentina, pensamentos suicidas e vozes mentais podem ser influência de espíritos sofredores. Saiba diferenciar doença de obsessão espiritual.",
-        image: "https://picsum.photos/800/600?random=7",
+        image: "/assets/images/blog-eguns.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700 italic border-l-4 border-slate-300 pl-4">"Eu sinto uma tristeza que não tem motivo. Tenho tudo para ser feliz, mas sinto um vazio no peito."</p>
           
@@ -423,7 +423,7 @@ export const COPY = {
         id: 8,
         title: "Por que as Oferendas tem comida? Entenda o fundamento",
         excerpt: "Não, o santo não come. Entenda a física quântica e a manipulação de energia (Axé) através dos elementos da natureza e acabe com o preconceito.",
-        image: "https://picsum.photos/800/600?random=8",
+        image: "/assets/images/blog-oferendas.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">Muita gente critica ou tem medo ao ver um despacho ou oferenda na encruzilhada ou cachoeira. <em>"Para que gastar comida se tem gente passando fome?"</em> é a crítica mais comum. Mas essa visão é superficial e desconhece o fundamento energético.</p>
           
@@ -448,7 +448,7 @@ export const COPY = {
         id: 9,
         title: "Preto Velho: A sabedoria que cura com humildade",
         excerpt: "Na linha das almas, a paciência é a maior magia. Descubra como a energia dos avós espirituais pode trazer paz para lares em guerra e curar a ansiedade.",
-        image: "https://picsum.photos/800/600?random=9",
+        image: "/assets/images/blog-preto-velho.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700 font-serif italic text-center">"Adorei as Almas! As Almas Adorei!"</p>
           
@@ -473,7 +473,7 @@ export const COPY = {
         id: 10,
         title: "Odu: O Mapa Astral dos Orixás",
         excerpt: "Você nasceu com um destino traçado, mas não sentenciado. Descubra o que é o Odu de Nascimento e como ele influencia suas vitórias e derrotas.",
-        image: "https://picsum.photos/800/600?random=10",
+        image: "/assets/images/blog-odu.jpg",
         content: `
           <p class="mb-6 text-lg text-slate-700">Muitas pessoas conhecem a Astrologia e seus signos. No Candomblé, temos um sistema ainda mais antigo e complexo: os <strong>Odus de Ifá</strong>.</p>
           

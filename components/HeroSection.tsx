@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
           loop 
           playsInline 
           className="hidden md:block w-full h-full object-cover opacity-50 md:opacity-60"
-          poster="https://picsum.photos/1920/1080?grayscale&blur=2"
+          poster="/assets/images/hero-poster.jpg"
         >
           <source src={DESKTOP_VIDEO} type="video/mp4" />
         </video>
